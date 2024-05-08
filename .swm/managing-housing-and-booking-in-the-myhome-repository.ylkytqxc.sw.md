@@ -29,4 +29,4 @@ The Java files in the repository provide more specific details on how these func
 
 This document has provided an overview of the management of housing and booking in the 'myhome' repository. For more detailed information, refer to the respective Java files in the repository.
 
-<SwmMeta version="3.0.0"><sup>Powered by [Swimm](https://app.swimm.io/)</sup></SwmMeta>
+<SwmMeta version="3.0.0" repo-id="Z2l0aHViJTNBJTNBc2h1anUtbXlob21lJTNBJTNBcmljYXJkb2xvcGV6Zw==" repo-name="shuju-myhome"><sup>Powered by [Swimm](https://app.swimm.io/)</sup></SwmMeta>

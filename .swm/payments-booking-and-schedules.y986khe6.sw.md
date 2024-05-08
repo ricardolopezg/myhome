@@ -1,7 +1,7 @@
 ---
 title: 'Payments, booking, and schedules '
 ---
-<SwmSnippet path="/assets/FEATURES.md" line="48">
+<SwmSnippet path="/assets/FEATURES.md" line="48" repo-id="Z2l0aHViJTNBJTNBbXlob21lJTNBJTNBc3dpbW1pbw==" repo-name="myhome">
 
 ---
 
@@ -20,7 +20,7 @@ title: 'Payments, booking, and schedules '
 
 </SwmSnippet>
 
-<SwmSnippet path="/service/src/main/java/com/myhome/services/PaymentService.java" line="30">
+<SwmSnippet path="/service/src/main/java/com/myhome/services/PaymentService.java" line="30" repo-id="Z2l0aHViJTNBJTNBbXlob21lJTNBJTNBc3dpbW1pbw==" repo-name="myhome">
 
 ---
 
@@ -44,4 +44,6 @@ public interface PaymentService {
 
 </SwmSnippet>
 
-<SwmMeta version="3.0.0" repo-id="Z2l0aHViJTNBJTNBbXlob21lJTNBJTNBc3dpbW1pbw==" repo-name="myhome"><sup>Powered by [Swimm](https://app.swimm.io/)</sup></SwmMeta>
+&nbsp;
+
+<SwmMeta version="3.0.0" repo-id="Z2l0aHViJTNBJTNBc2h1anUtbXlob21lJTNBJTNBcmljYXJkb2xvcGV6Zw==" repo-name="shuju-myhome"><sup>Powered by [Swimm](https://app.swimm.io/)</sup></SwmMeta>
