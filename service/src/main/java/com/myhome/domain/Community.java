@@ -62,7 +62,7 @@ import lombok.With;
         }
     )
 })
-public class Community extends BaseEntity {
+public class House extends BaseEntity {
   @ToString.Exclude
   @ManyToMany(fetch = FetchType.LAZY)
   private Set<User> admins = new HashSet<>();

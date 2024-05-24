@@ -53,10 +53,10 @@ import lombok.With;
         }
     )
 })
-public class CommunityHouse extends BaseEntity {
+public class yHouse extends BaseEntity {
   @With
   @ManyToOne(fetch = FetchType.LAZY)
-  private Community community;
+  private House community;
   @With
   @Column(nullable = false)
   private String name;

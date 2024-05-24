@@ -65,7 +65,7 @@ public class Amenity extends BaseEntity {
   @Column(nullable = false)
   private BigDecimal price;
   @ManyToOne(fetch = FetchType.LAZY)
-  private Community community;
+  private House community;
   @ManyToOne
   private CommunityHouse communityHouse;
   @ToString.Exclude
