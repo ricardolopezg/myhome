@@ -8,7 +8,7 @@ This document will cover the concept of 'Community' within the MyHome project. W
 
 # What is 'Community' in MyHome
 
-In the context of the MyHome project, a 'Community' represents a group of houses and amenities. It is implemented as a class in the `service/src/main/java/com/myhome/domain/Community.java` file. A 'Community' has several attributes such as a unique ID, name, and district. It also has relationships with other entities such as 'User' (as admins), 'CommunityHouse', and 'Amenity'.
+In the context of the MyHome project, a 'Community' represents a group of houses and amenities. It is implemented as a class in the <SwmPath repo-id="Z2l0aHViJTNBJTNBc2h1anUtbXlob21lJTNBJTNBcmljYXJkb2xvcGV6Zw==" repo-name="myhome" path="/service/src/main/java/com/myhome/domain/Community.java">`(myhome) service/src/main/java/com/myhome/domain/Community.java`</SwmPath> file. A 'Community' has several attributes such as a unique ID, name, and district. It also has relationships with other entities such as 'User' (as admins), <SwmToken path="/service/src/main/java/com/myhome/domain/CommunityHouse.java" pos="56:4:4" line-data="public class CommunityHouse extends BaseEntity {" repo-id="Z2l0aHViJTNBJTNBc2h1anUtbXlob21lJTNBJTNBcmljYXJkb2xvcGV6Zw==" repo-name="myhome">`CommunityHouse`</SwmToken>, and 'Amenity'.
 
 <SwmSnippet path="/service/src/main/java/com/myhome/domain/Community.java" line="65" repo-id="Z2l0aHViJTNBJTNBc2h1anUtbXlob21lJTNBJTNBcmljYXJkb2xvcGV6Zw==">
 
@@ -16,7 +16,7 @@ In the context of the MyHome project, a 'Community' represents a group of houses
 
 # Main Classes and Fields Related to 'Community'
 
-The 'Community' class is defined here. It extends the 'BaseEntity' class and includes fields for admins, houses, name, communityId, district, and amenities. The 'admins' field represents the users who are administrators of the community. The 'houses' field represents the houses within the community. The 'amenities' field represents the amenities available within the community.
+The 'Community' class is defined here. It extends the <SwmToken path="/service/src/main/java/com/myhome/domain/Community.java" pos="65:8:8" line-data="public class Community extends BaseEntity {" repo-id="Z2l0aHViJTNBJTNBc2h1anUtbXlob21lJTNBJTNBcmljYXJkb2xvcGV6Zw==" repo-name="myhome">`BaseEntity`</SwmToken> class and includes fields for admins, houses, name, <SwmToken path="/service/src/main/java/com/myhome/domain/Community.java" pos="75:5:5" line-data="  private String communityId;" repo-id="Z2l0aHViJTNBJTNBc2h1anUtbXlob21lJTNBJTNBcmljYXJkb2xvcGV6Zw==" repo-name="myhome">`communityId`</SwmToken>, district, and amenities. The 'admins' field represents the users who are administrators of the community. The 'houses' field represents the houses within the community. The 'amenities' field represents the amenities available within the community.
 
 ```java
 public class Community extends BaseEntity {
