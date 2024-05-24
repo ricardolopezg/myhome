@@ -6,11 +6,11 @@ This document will cover the topic of 'Community Service' in the MyHome project.
 1. What is 'Community Service' and where it is implemented.
 2. The main classes/functions/files that are related to 'Community Service'.
 
-<SwmSnippet path="/service/src/main/java/com/myhome/services/CommunityService.java" line="28">
+# What is 'Community Service' and where it is implemented
+
+<SwmSnippet path="/service/src/main/java/com/myhome/services/CommunityService.java" line="28" repo-id="Z2l0aHViJTNBJTNBc2h1anUtbXlob21lJTNBJTNBcmljYXJkb2xvcGV6Zw==">
 
 ---
-
-# What is 'Community Service' and where it is implemented
 
 `CommunityService` is an interface that defines the operations related to managing communities in the MyHome project. It includes methods for creating communities, listing all communities, getting community details, finding community houses and admins, adding admins and houses to a community, removing a house or an admin from a community, and deleting a community.
 
@@ -42,11 +42,11 @@ public interface CommunityService {
 
 </SwmSnippet>
 
-<SwmSnippet path="/service/src/main/java/com/myhome/services/springdatajpa/CommunitySDJpaService.java" line="46">
+## Main classes/functions/files that are related to 'Community Service'
+
+<SwmSnippet path="/service/src/main/java/com/myhome/services/springdatajpa/CommunitySDJpaService.java" line="46" repo-id="Z2l0aHViJTNBJTNBc2h1anUtbXlob21lJTNBJTNBcmljYXJkb2xvcGV6Zw==">
 
 ---
-
-# The main classes/functions/files that are related to 'Community Service'
 
 `CommunitySDJpaService` is a class that implements the `CommunityService` interface. It provides the concrete implementation of the methods defined in `CommunityService`. For example, the `createCommunity` method generates a unique ID for the new community, retrieves the current authenticated user as the admin, and saves the new community to the repository.
 
@@ -78,8 +78,7 @@ public class CommunitySDJpaService implements CommunityService {
 
 </SwmSnippet>
 
-&nbsp;
-
+\
 *This is an auto-generated document by Swimm AI 🌊 and has not yet been verified by a human*
 
-<SwmMeta version="3.0.0" repo-id="Z2l0aHViJTNBJTNBbXlob21lJTNBJTNBc3dpbW1pbw==" repo-name="myhome"><sup>Powered by [Swimm](/)</sup></SwmMeta>
+<SwmMeta version="3.0.0" repo-id="Z2l0aHViJTNBJTNBbXlob21lJTNBJTNBc3dpbW1pbw==" repo-name="myhome"><sup>Powered by [Swimm](https://app.swimm.io/)</sup></SwmMeta>

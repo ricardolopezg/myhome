@@ -1,7 +1,9 @@
 ---
 title: Community Controller Overview
 ---
-This document will cover the Community Controller in the MyHome project. We'll cover:
+# Main classes/functions/files related to Community Controller
+
+The `CommunityController` class contains several methods for handling community-related requests. These include `createCommunity`, `listAllCommunity`, `listCommunityDetails`, `listCommunityAdmins`, `listCommunityHouses`, `addCommunityAdmins`, `addCommunityHouses`, and `removeCommunityHouse`. Each of these methods corresponds to a specific HTTP request and uses the `CommunityService` and `CommunityApiMapper` to process the request and generate a response.This document will cover the Community Controller in the MyHome project. We'll cover:
 
 1. What is the Community Controller
 2. The main classes/functions/files that are related to the Community Controller
@@ -10,13 +12,11 @@ This document will cover the Community Controller in the MyHome project. We'll c
 
 The `CommunityController` is a class in the `com.myhome.controllers` package. It implements the `CommunitiesApi` interface and is responsible for handling HTTP requests related to communities. It uses `CommunityService` for business logic and `CommunityApiMapper` for converting between DTOs and domain objects.
 
-<SwmSnippet path="/service/src/main/java/com/myhome/controllers/CommunityController.java" line="56">
+<SwmSnippet path="/service/src/main/java/com/myhome/controllers/CommunityController.java" line="56" repo-id="Z2l0aHViJTNBJTNBc2h1anUtbXlob21lJTNBJTNBcmljYXJkb2xvcGV6Zw==">
 
 ---
 
-# Main classes/functions/files related to Community Controller
-
-The `CommunityController` class contains several methods for handling community-related requests. These include `createCommunity`, `listAllCommunity`, `listCommunityDetails`, `listCommunityAdmins`, `listCommunityHouses`, `addCommunityAdmins`, `addCommunityHouses`, and `removeCommunityHouse`. Each of these methods corresponds to a specific HTTP request and uses the `CommunityService` and `CommunityApiMapper` to process the request and generate a response.
+&nbsp;
 
 ```java
 @RequiredArgsConstructor
@@ -46,8 +46,6 @@ public class CommunityController implements CommunitiesApi {
 
 </SwmSnippet>
 
-&nbsp;
-
 *This is an auto-generated document by Swimm AI 🌊 and has not yet been verified by a human*
 
-<SwmMeta version="3.0.0" repo-id="Z2l0aHViJTNBJTNBbXlob21lJTNBJTNBc3dpbW1pbw==" repo-name="myhome"><sup>Powered by [Swimm](/)</sup></SwmMeta>
+<SwmMeta version="3.0.0" repo-id="Z2l0aHViJTNBJTNBbXlob21lJTNBJTNBc3dpbW1pbw==" repo-name="myhome"><sup>Powered by [Swimm](https://app.swimm.io/)</sup></SwmMeta>
