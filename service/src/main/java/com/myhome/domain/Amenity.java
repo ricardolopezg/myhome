@@ -64,11 +64,4 @@ public class Amenity extends BaseEntity {
   private String description;
   @Column(nullable = false)
   private BigDecimal price;
-  @ManyToOne(fetch = FetchType.LAZY)
-  private Community community;
-  @ManyToOne
-  private CommunityHouse communityHouse;
-  @ToString.Exclude
-  @OneToMany(fetch = FetchType.LAZY, mappedBy = "amenity")
-  private Set<AmenityBookingItem> bookingItems = new HashSet<>();
 }
